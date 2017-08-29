@@ -50,8 +50,9 @@ def main():
     threading.Thread(target=run, kwargs=dict(host='0.0.0.0', port=9000,quiet=True)).start()
     
 
-    pixels=[(0,0,0)]*20
+    pixels=[(0,0,0)]*60
 
+    pixels[0]=[255,0,0]
     while True:
         
         try:

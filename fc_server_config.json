@@ -13,14 +13,14 @@
             "serial": "IKOMDNPBAGRXZPKR",
             "led": false,
             "map": [
-                [ 0, 0, 0, 10 ]
+                [ 0, 0, 0, 30 ]
             ]
         },
         {
             "type": "fadecandy",
             "serial": "VJXDWGNPGKBXZNYH",
             "map": [
-                [ 0, 10, 64, 10 ]
+                [ 0, 30, 64, 30 ]
                 
             ]
         }
