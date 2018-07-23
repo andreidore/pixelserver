@@ -18,7 +18,7 @@ if [ "$_IP" ]; then
 fi
 
 
-cd /home/pi/git/pixelserver
+cd /home/pi/git/pixelserver/server
 
 sudo ./start_fc.sh &
 
