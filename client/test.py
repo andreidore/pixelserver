@@ -12,9 +12,9 @@ def main():
     while True:
         
         data=[]
-        for i in range(10):
+        for i in range(160):
             
-            data.append({"i":i,"r":color,"g":color,"b":color})
+            data.append({"i":i,"r":color,"g":color+10,"b":color+10})
             
         r = requests.post('http://192.168.1.124:9000/api', json = data)
 
