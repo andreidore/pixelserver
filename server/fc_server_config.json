@@ -18,9 +18,9 @@
         },
         {
             "type": "fadecandy",
-            "serial": "VJXDWGNPGKBXZNYH",
+            "serial": "HBZXKMXJSWFVFZWX",
             "map": [
-                [ 0, 30, 64, 30 ]
+                [ 0, 512, 0, 46 ]
                 
             ]
         }
