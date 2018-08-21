@@ -61,6 +61,9 @@ def main():
                 if isinstance(pixel,list):
                     for p in pixel:
                         #print(p)
+                        if p[i]>999:
+                            continue
+                            
                         pixels[p["i"]]=(p["r"],p["g"],p["b"])
 
         
